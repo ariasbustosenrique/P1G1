@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Avance 4 - 08/05/2023</title>
+</head>
+<body>
+    <button onclick="EjercicioUno()">
+        Ejercicio Uno -> ((10 > 5) || ( (15 == 6) && false ))
+    </button>
+
+    <button onclick="EjercicioDos()">
+        Ejercicio Dos
+    </button>
+
+    <button onclick="EjercicioTres()">
+        ///Ejercicio 
+     
+    </button>
+<script>
+//Ejericicio 1.- ((10 > 5) || ( (15 == 6) && false ))
+//               (( True ) || ( ( False ) && false ))
+//               (  True   ||          False        )  
+//               (             True                 )  
+function EjercicioUNO (){
+    if((10 > 5) || ( (15 == 6) && false )){
+        alert("true")
+    }else{
+        alert("falce")
+    }
+}
+//ejercio 2 .- ( (5 == 5) || (10 < 9) )  && ( (5 > 5) && (0 != 1) )
+//             (( True )  || ( ( False ) && ((false ))    ((true))
+//              (  True                 )&& (falce                ) 
+//                              falce                              )  
+function EjercicioDos (){
+    if((5==5) || (10<9) && ((5>5) && (0 != 1))){
+        alert("TRUE")
+    } else {
+        alert("FALSE")
+    }
+} 
+
+
+
+//Ejericicio 3.- ( (7=>7 ) && (falce == true) ) && (8 < 9)
+//               ((true )  && (falce........) ) && (falce)
+//               (falce                       ) && (falce)
+//               (            falce                      )
+function Ejerciciotres (){
+     if (((7 >= 7) && (falce == true)) && (8>9)){
+        alert("TRUE")
+    } else {
+        alert("falce") 
+    }
+}           
+
+
+
+
+</script>
+</body>
+</html>
