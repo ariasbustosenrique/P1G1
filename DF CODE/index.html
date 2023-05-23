@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+    type="text/javascript"
+    src="code.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <title>Programación 1</title>
+</head>
+<body>
+
+    <h1>CALCULADORA ESTÁNDAR</h1>
+    <table border="1px">
+        <tr>
+            <td colspan="4">RESULTADO</td>
+        </tr>
+        <tr>
+            <td><button onclick="factorial()">factorial</button></td>
+            <td><button onclick="potencia()">potencia</button></td>
+            <td><button onclick="borrar()">borrar</button></td>
+            <td><button onclick="dividir()">dividir</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="siete()">7</button></td>
+            <td><button onclick="ocho()">8</button></td>
+            <td><button onclick="nueve()">9</button></td>
+            <td><button onclick="multiplicar()">multiplicar</button></td>           
+        </tr>
+        <tr>
+            <td><button onclick="cuatro()">4</button></td>
+            <td><button onclick="cinco()">5</button></td>
+            <td><button onclick="seis()">6</button></td>
+            <td><button onclick="menos()">menos</button></td>            
+        </tr>
+        <tr>
+            <td><button onclick="uno()">1</button></td>
+            <td><button onclick="dos()">2</button></td>
+            <td><button onclick="tres()">3</button></td>
+            <td><button onclick="mas()">mas</button></td>            
+        </tr>
+        <tr>
+            <td><button onclick="inverso()">+/-</button></td>
+            <td><button onclick="cero()">0</button></td>
+            <td><button onclick="MOD()">MOD</button></td>
+            <td><button onclick="igual()">igual</button></td>            
+        </tr>
+    </table>
+
+    <h1>Pablo Ignacio Camacho Gutierrez</h1>
+    <h2>1.- Determinar el valor del factorial de un número N</h2>
+    <button onclick="factorialN()">Factorial</button>
+    
+    <h2>2.- Dados A y B, determinar cuál es el mayor</h2>
+    <button onclick="mayorAyB()">Mayor A y B</button>
+    
+    <h2>3.- Dados A y B, determinar cuál es el menor</h2>
+    <button onclick="menorAyB()">Menor A y B</button>
+    
+    <h2>4.- Dado A y B, obtener el DIV</h2>
+    <button onclick="obtenerDiv()">DIV A y B</button>
+    
+    <h2>5.- Dado A y B, obtener el MOD</h2>
+    <button onclick="obtenerMod()">MOD A y B</button>
+    
+    <h2>6.- Retornar la cantidad de dígitos que tiene el número N</h2>
+    <button onclick="digitosN()">Número dígitos N</button>
+    
+    <h2>7.- Retornar los dígitos que tiene el número N</h2>
+    <button onclick="retornarDigitosN()">Retornar dígitos N</button>
+    
+    <h2>8.- Mostrar si existe el 3 en el número N</h2>
+    <button onclick="mostrarTres()">Mostrar 3</button>
+    
+    <h2>9.- Calcular el área y perímetro de un trapecio</h2>
+    <button onclick="areaPerimetroTrapecio()">Área y Perímetro Trapecio</button>
+    
+    <h2>10.- Determinar si N es par o impar</h2>
+    <button onclick="NParOImpar()">N par o impar</button>
+    
+    <h2>11.- IF normal</h2>
+    <button onclick="ifNormal()">IF Normal</button>
+    
+    <h2>12.- IF abreviado</h2>
+    <button onclick="ifAbreviado()">IF Abreviado</button>
+    
+    <h2>13.- Retornar la cantidad de dígitos que tiene el número N usando FOR</h2>
+    <button onclick="digitosNFOR()">Número dígitos N FOR</button>
+    
+    <h2>14.- Retornar dígitos impares de un número N</h2>
+    <button onclick="digitosImpares()">Dígitos impares</button>
+    
+    <h2>14.- Sumatoria del 1 al 10</h2>
+    <button onclick="sumatoria1a10()">Sumatoria</button>
+    
+    <h2>15.- Calcular el área y volumen de un cilindro</h2>
+    <button onclick="areaVolumenCilindro()">Área y Volumen Cilindro</button>
+    
+    <h2>15.- Retornar si un número es positivo, negativo o neutro</h2>
+    <button onclick="mostrarNumPosNeg()">Positivo, Negativo o Neutro</button>
+    
+    <h2>16.- Dado A y B, mostrar el número que sea menor</h2>
+    <button onclick="mostrarNumMenor()">Menor de A y B</button>
+
+fuction multiplodeM()- ¨{
+    var N = parseint(promt(Ingrese - N: ", 10))
+    var M = parseint(promt(Ingrese - M: ", 10))
+
+    if (N % M) ==0) {
+        alert (N + " es multiplo de "+ M)
+    } else {
+        alert(N + "no es multiplo de " +  M)
+    }
+   
+}    
+fuction sumaDigMultiplos 3deN (){
+    var N = parseint(prompt("Ingrese N " , 23462314))
+    var sum = 0 
+    var dig = 0
+    while  (N != 0){
+        alert (dig)//IF para sumar los multiplos de 3 
+        IF ((DIG % 3) == 0){
+            sum = sum + dig 
+        } else {
+            //nada 
+        }  
+        N = parseint(N / 10)
+    }
+    alert (sum)
+
+</body>
+</html>
